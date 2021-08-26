@@ -1,0 +1,34 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    include "us(intl-unicode)"
+
+    // first row, number on caps like french
+    key <AE01> { [	   exclam,    1,     exclamdown,      onesuperior ] };
+    // double acute
+    key <AE02> { [ at, 2, twosuperior, U030B ] };
+    // macron
+    key <AE03> { [ numbersign, 3, threesuperior, U0304 ] };
+    key <AE04> { [	   dollar,      4,     currency,         sterling ] };
+    key <AE05> { [	   percent,      5,    EuroSign,     dead_cedilla ] };
+    // circumflex
+    key <AE06> { [ asciicircum, 6, onequarter, U0302 ] };
+    // horn
+    key <AE07> { [ ampersand, 7, onehalf, U031B ] };
+    // ogonek
+    key <AE08> { [ asterisk, 8, threequarters, U0328 ] };
+    // breve
+    key <AE09> { [ parenleft, 9, leftsinglequotemark, U0306 ] };
+    // abovering
+    key <AE10> { [	 parenright, 0, rightsinglequotemark, U030A ] };
+
+    // more common frech characters
+    key <AC01> { [	   a,          A,        agrave,           Agrave ] };
+    key <AD09> { [	   o,          O,        oacute,           Oacute ] };
+    key <AD09> { [	   o,          O,        oe,           OE ] };
+
+    key <AC12>  { [ backslash,        bar,      U2019,     brokenbar ] }; // \ typographical apostrophe ¦ 
+
+    key <LSGT> {[ less,        greater,        lessthanequal,        greaterthanequal      ]}; // < > ≤ ≥
+
+};
