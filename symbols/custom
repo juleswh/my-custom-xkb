@@ -28,6 +28,7 @@ xkb_symbols "basic" {
     key <AD05> { [	   t,          T,        ecircumflex,           Ecircumflex ] };
     key <AD07> { [	   u,          U,        ugrave,           Ugrave ] };
     key <AD09> { [	   o,          O,        oe,           OE ] };
+    key <AB03> { [	   c,          C,        ccedilla,           Ccedilla ] };
 
     key <AC12>  { [ backslash,        bar,      U2019,     brokenbar ] }; // \ typographical apostrophe ¦ 
 
