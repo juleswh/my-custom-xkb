@@ -22,9 +22,11 @@ xkb_symbols "basic" {
     // abovering
     key <AE10> { [	 parenright, 0, rightsinglequotemark, U030A ] };
 
-    // more common frech characters
+    // more common french characters
     key <AC01> { [	   a,          A,        agrave,           Agrave ] };
-    key <AD09> { [	   o,          O,        oacute,           Oacute ] };
+    key <AD04> { [	   r,          R,        egrave,           Egrave ] };
+    key <AD05> { [	   t,          T,        ecircumflex,           Ecircumflex ] };
+    key <AD07> { [	   u,          U,        ugrave,           Ugrave ] };
     key <AD09> { [	   o,          O,        oe,           OE ] };
 
     key <AC12>  { [ backslash,        bar,      U2019,     brokenbar ] }; // \ typographical apostrophe ¦ 

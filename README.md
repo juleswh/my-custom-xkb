@@ -4,6 +4,10 @@
 
 Copy `symbols` into `/usr/share/X11/xkb/symbols`.
 
+```.bash
+cp ./symbols/* /usr/share/X11/xkb/symbols/
+```
+
 Change `/usr/share/X11/xkb/rules` according to files in `rules`:
  * add 
    
