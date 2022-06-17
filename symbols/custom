@@ -27,6 +27,7 @@ xkb_symbols "basic" {
     key <AD04> { [	   r,          R,        egrave,           Egrave ] };
     key <AD05> { [	   t,          T,        ecircumflex,           Ecircumflex ] };
     key <AD07> { [	   u,          U,        ugrave,           Ugrave ] };
+    key <AD08> { [	   i,          I,        ucircumflex,           Ucircumflex ] };
     key <AD09> { [	   o,          O,        oe,           OE ] };
     
     key <AC01> { [	   a,          A,        agrave,           Agrave ] };
