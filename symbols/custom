@@ -20,7 +20,9 @@ xkb_symbols "basic" {
     // breve
     key <AE09> { [ parenleft, 9, leftsinglequotemark, U0306 ] };
     // abovering
-    key <AE10> { [	 parenright, 0, rightsinglequotemark, U030A ] };
+    key <AE10> { [ parenright, 0, rightsinglequotemark, degree ] };
+    // degree
+    key <AE11> { [ minus, underscore, degree, U0323 ] };
 
     // more common french characters
     key <AD02> { [	   w,          W,        acircumflex,      Acircumflex ] };
