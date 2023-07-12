@@ -22,7 +22,7 @@ xkb_symbols "basic" {
     // abovering
     key <AE10> { [ parenright, 0, rightsinglequotemark, degree ] };
     // degree
-    key <AE11> { [ minus, underscore, degree, U0323 ] };
+    key <AE11> { [ minus, underscore, emdash, endash ] };
 
     // more common french characters
     key <AD02> { [	   w,          W,        acircumflex,      Acircumflex ] };
@@ -33,12 +33,14 @@ xkb_symbols "basic" {
     key <AD09> { [	   o,          O,        oe,           OE ] };
     key <AD10> { [	   p,          P,        ocircumflex,           Ocircumflex ] };
     
-    key <AC01> { [	   a,          A,        agrave,           Agrave ] };
     
-    key <AB03> { [	   c,          C,        ccedilla,           Ccedilla ] };
-
+    key <AC01> { [	   a,          A,        agrave,           Agrave ] };
+    key <AC07> { [     j,          J,        icircumflex,           Icircumflex ] }; // j J ̂i ̂I
     key <AC12>  { [ backslash,        bar,      U2019,     brokenbar ] }; // \ typographical apostrophe ¦ 
 
     key <LSGT> {[ less,        greater,        lessthanequal,        greaterthanequal      ]}; // < > ≤ ≥
+
+    key <AB03> { [	   c,          C,        ccedilla,           Ccedilla ] };
+    key <AB09>  { [ period,        greater,  periodcentered, U0302 ] }; // . > · ̂ 
 
 };
