@@ -16,9 +16,9 @@ xkb_symbols "basic" {
     // horn
     key <AE07> { [ ampersand, 7, onehalf, U031B ] };
     // ogonek
-    key <AE08> { [ asterisk, 8, threequarters, U0328 ] };
+    key <AE08> { [ asterisk, 8, threequarters, multiply ] };
     // breve
-    key <AE09> { [ parenleft, 9, leftsinglequotemark, U0306 ] };
+    key <AE09> { [ parenleft, 9, leftsinglequotemark, division ] };
     // abovering
     key <AE10> { [ parenright, 0, rightsinglequotemark, degree ] };
     // degree
