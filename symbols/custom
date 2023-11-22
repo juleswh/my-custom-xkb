@@ -36,11 +36,13 @@ xkb_symbols "basic" {
     
     key <AC01> { [	   a,          A,        agrave,           Agrave ] };
     key <AC07> { [     j,          J,        icircumflex,           Icircumflex ] }; // j J ̂i ̂I
-    key <AC12>  { [ backslash,        bar,      U2019,     brokenbar ] }; // \ typographical apostrophe ¦ 
+    key <AC12>  { [ backslash,        bar,      U2019,     brokenbar ] }; // \ typographical apostrophe
 
     key <LSGT> {[ less,        greater,        lessthanequal,        greaterthanequal      ]}; // < > ≤ ≥
 
     key <AB03> { [	   c,          C,        ccedilla,           Ccedilla ] };
     key <AB09>  { [ period,        greater,  periodcentered, U0302 ] }; // . > · ̂ 
+
+    key <SPCE>  { [     space,       space, nobreakspace, nobreakspace] };
 
 };
